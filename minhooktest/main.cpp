@@ -41,7 +41,6 @@ DWORD WINAPI cheat(LPVOID lpvParam) {
     if (MH_EnableHook((LPVOID)functionAddress) != MH_OK) return 1;
 
     while (true) {
-        // You can add a key to uninject/unhook here
         if (GetAsyncKeyState(VK_DELETE) & 1) {
             break;
         }
