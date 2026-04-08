@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="minhooktest/minhooktest.vcxproj" Id="02296bf9-0ce0-49cd-a4ba-b3cb81a45968" />
+</Solution>
